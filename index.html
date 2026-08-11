@@ -68,6 +68,20 @@
      margin: 0 auto;
      display: block;
     }
+    .botao-like {
+  background-color: transparent;
+  color: #d42d70;
+  border: 2px solid #d42d70;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 30px; 
+  cursor: pointer;
+  transition: all 0.3s ease; 
+}
+.botao-like:hover {
+  background-color: #d42d70;
+  color: #FFFFFF;
+  transform: scale(1.05); }
     img{
     width: 250px; 
     height: 400px;
@@ -178,8 +192,8 @@
          <br>
          <main8>
          <h1>Como você avalia este site?</h1>
-         <button>👍​<span>0</span></button>
-         <button>👎​​<span>0</span></button>
+         <button class="button-like">👍​<span>0</span></button>
+         <button class="button-like">👎​​<span>0</span></button>
          <h1>Agradecemos o feedback!!!</h1>
          </main8>
 </body>
