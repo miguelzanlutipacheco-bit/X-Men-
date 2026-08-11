@@ -60,7 +60,14 @@
      margin: 0 auto;
      display: flex;
     }
-     main8{
+    main8{
+     background-color: #800080;  
+     color: white;
+     max-width: 800px;
+     margin: 0 auto;
+     display: flex;
+    }
+     main9{
      background-color: #800080;  
      color: white;
      text-align: center;
@@ -191,11 +198,20 @@
         </main7>
          <br>
          <main8>
+         <h1>Podcast</h1>
+         <div style="display: flex; justify-content: center; margin: 20px 0;">
+         <video width="640" height="360" controls>
+         <source src="Podcast.mp4" type="video/mp4">
+         </video>
+         </div>
+         </main8>
+         <br>
+         <main9>
          <h1>Como você avalia este site?</h1>
          <button class="button-like">👍​<span>0</span></button>
          <button class="button-like">👎​​<span>0</span></button>
          <h1>Agradecemos o feedback!!!</h1>
-         </main8>
+         </main9>
 </body>
     <script>
     const botoes = document.querySelectorAll("button");
